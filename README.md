@@ -14,7 +14,7 @@
   - NumPy
   - Matplotlib
   - TensorBoard
-  - 其他工具库（如`lkh`用于求解TSP问题）
+  - lkh
 
 ### 配置方法
 1. 确保已安装Python和相关依赖库。
@@ -35,17 +35,17 @@
   ```bash
   python generate_data.py
   ```
-- 如果您有自定义问题实例，请参考`generate_data.py`中的代码，将其转换为适合算法处理的格式（`.pkl`）。
+- 如果您有自定义问题实例，请参考`generate_data.py`中的代码，将其转换为适合算法处理的数据结构。
 
 ### 2. 训练模型
-- **使用随机数据或已有进行训练**：
-  直接运行`train.py`即可，可在代码中更改数据由随机生成或从`pkl`文件中读取：
+- **使用随机数据或已有数据进行训练**：
+  直接运行`train.py`即可，可在代码中修改随机生成数据或从`.pkl`文件中读取数据：
   ```bash
   python SAPPO/train.py
   ```
   训练过程中会记录指标到TensorBoard日志中，训练完成后模型会保存在`SAPPO/trained_models/`目录中。
 
-- **读取公共数据集（TSPLIB数据集）格式进行训练**：
+- **读取`.tsp`（TSPLIB数据集）文件进行训练**：
   运行`train_public.py`：
   ```bash
   python SAPPO/train_public.py
