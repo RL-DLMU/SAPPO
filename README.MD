@@ -81,3 +81,10 @@
 - **no_fly**：此文件夹包含了解决带有禁飞区约束的TSPD问题的代码。同样，其用法也与SAPPO一致，可直接复用SAPPO训练出的模型，但其数据需要额外提供一个包含禁飞节点索引的列表。
 
 这两个模块展示了算法的扩展性和灵活性，能够适应不同类型的问题。
+
+---
+
+## 数据集说明
+
+本仓库提供了算法代码及其运行环境，以及生成随机数据的相关代码以供参考输入数据格式。
+本项目为论文 [A two-stage framework based on RL for Truck-Drone Collaborative Delivery Problem] 的官方开源实现，BibTex待更新。
