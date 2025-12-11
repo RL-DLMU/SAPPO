@@ -87,4 +87,15 @@
 ## 数据集说明
 
 本仓库提供了算法代码及其运行环境，以及生成随机数据的相关代码以供参考输入数据格式。
-本项目为论文 [A two-stage framework based on RL for Truck-Drone Collaborative Delivery Problem] 的官方开源实现，BibTex待更新。
+本项目为论文 [A two-stage framework based on RL for Truck-Drone Collaborative Delivery Problem]([https://ieeexplore.ieee.org/document/11288973]) 的官方开源实现，如有引用请使用以下 BibTeX：
+```bibtex
+@ARTICLE{11288973,
+  author={Li, Yuanbo and Zhang, Chengwei and Liu, Wanting and Li, Chao and An, Dou and Wang, Qi},
+  journal={IEEE Internet of Things Journal}, 
+  title={A two-stage framework based on RL for Truck-Drone Collaborative Delivery Problem}, 
+  year={2025},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Drones;Optimization;Collaboration;Training;Scalability;Vehicle dynamics;Urban areas;Traveling salesman problems;Payloads;Logistics;Traveling salesman problem;Vehicle routing;Drones;Reinforcement learning},
+  doi={10.1109/JIOT.2025.3641887}}
